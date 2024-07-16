@@ -13,14 +13,16 @@
 \usepackage{blindtext}
 \usepackage[super]{natbib} % for references in superscript
 
-% note: we are preficing figures with an S character 
+% note: we are preficing figures with an S character
 \renewcommand\thefigure{S\arabic{figure}}
-
 
 % submission requirements in ancient journals
 \usepackage{lineno} % enumerate each line
 \linenumbers
 \linespread{2}
+% this ensures that the paragraph break is notabel even wiht the dounel spaceing
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\etal}{\textit{\!et al.\,}}
