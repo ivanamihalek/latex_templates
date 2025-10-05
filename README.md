@@ -12,7 +12,9 @@ pdflatex  -output-directory=out  cicero
 pdflatex  -output-directory=out supplement
 
 ```
-The `pdflatex` steps need to be repeated thrice  to compile the figure and biblography references correctly. Not that the final pdf files will also be placed in the `out` directory.
+The `pdflatex` steps need to be repeated thrice to compile the figure and bibliography references correctly. 
+Note that the final pdf files will also be placed in the `out` directory.
+
 
 
 
