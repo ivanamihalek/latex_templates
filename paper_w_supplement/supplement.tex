@@ -13,7 +13,7 @@
 \usepackage{blindtext}
 %\usepackage[super]{natbib} % for references in superscript - all references listed, with semicolon between them
 \usepackage[superscript]{cite} % for references in superscript - first and last contig ref, with dash in between
-% note: we are preficing figures with an S character
+% note: we are prefixing figures with an S character
 \renewcommand\thefigure{S\arabic{figure}}
 
 
@@ -59,6 +59,7 @@
 
 
     \clearpage
+    \bibliographystyle{vancouver}
     \bibliography{cicero}
 
 
@@ -68,12 +69,9 @@
     \begin{figure}[ht]%
         % note: figure argument should not include the extension
         \centering{\includegraphics[width=0.5\linewidth]{figures/cicero-skyrim}}
-        \caption {Cicero, Skyrim version.}
+        \caption {Cicero, Skyrim\cite{simkins2012unbroken} version.}
         \label{fig:ciceroskyrim} % referenced in the main document
     \end{figure}
-
-
-
 
 
 \end{document}
